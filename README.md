@@ -8,16 +8,3 @@ PBfB2018
 [Example of a link to a PDFfile](/ColorPlot.pdf)
 
 
-install:
-  - sudo pip install proselint
-
-script: 
-- proselint my_prose.md
-
-install:
-  - sudo apt-get install npm
-  - sudo npm install -g markdown-link-check
-
-script: 
-- ./check_dead_links
-
